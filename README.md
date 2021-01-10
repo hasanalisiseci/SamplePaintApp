@@ -14,4 +14,4 @@
 
 
 # Sample gif from using the app
-![App Gif](SamplePaintApp/paint_app.gif)
+![App Gif](/paint_app.gif)
