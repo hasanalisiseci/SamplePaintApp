@@ -12,5 +12,6 @@
 * Java Swing
 * Java AWT
 
+
 # Sample gif from using the app
 ![App Gif](SamplePaintApp/paint_app.gif)
