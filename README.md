@@ -8,10 +8,10 @@
 * Eraser with right mouse click
 * You can delete the entire drawing at once
 
-# Which libraries were used
+# Which libraries were used?s
 * Java Swing
 * Java AWT
 
 
-# Sample gif from using the app
+# Gif from using the app
 ![App Gif](/paint_app.gif)
