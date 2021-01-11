@@ -61,7 +61,7 @@ public class PaintCanvas extends Canvas implements MouseListener, MouseMotionLis
         width = n;
     }
 
-    // Çizgi renk değişiöi
+    // Çizgi renk değişimi
     public void setColorCombo(String color) {
         if (color.contentEquals("Siyah")) {
             c = Color.black;
@@ -81,8 +81,7 @@ public class PaintCanvas extends Canvas implements MouseListener, MouseMotionLis
         // Çizim modu (çizgi çizme)
         if (type == 1) {
             if (sx >= 0 && sy >= 0 && ex >= 0 && ey >= 0) {
-                BasicStroke stroke = new BasicStroke(width,
-                        BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND);
+                BasicStroke stroke = new BasicStroke(width, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND);
                 g2d.setStroke(stroke);
                 g2d.setColor(c);
                 g2d.drawLine(ex, ey, sx, sy);
@@ -92,8 +91,7 @@ public class PaintCanvas extends Canvas implements MouseListener, MouseMotionLis
         else if (type == 2) {
             if (sx >= 0 && sy >= 0 && ex >= 0 && ey >= 0) {
                 // Yuvarlak uçlu bir çizgiye ayarlıyoruz
-                BasicStroke stroke = new BasicStroke(50.0f,
-                        BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND);
+                BasicStroke stroke = new BasicStroke(50.0f, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND);
                 g2d.setStroke(stroke);
                 g2d.setColor(Color.white);
                 g2d.drawLine(ex, ey, sx, sy);
@@ -154,16 +152,16 @@ public class PaintCanvas extends Canvas implements MouseListener, MouseMotionLis
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        // Nothing
+
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        // Nothing
+
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-        // Nothing
+
     }
 }
