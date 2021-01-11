@@ -33,27 +33,27 @@ public class Main {
         canvas.setPreferredSize(new Dimension(w, h));
         paint_frame.add(canvas);
 
-        // Silme işlemleri
+        // Silme butonu oluşturup penceremize ekliyoruz ve silme işlemi
         JButton clear = new JButton("Temizle");
         clear.addActionListener(new ClearListener(canvas));
         top_bar.add(clear);
 
-        // Kalınlık ayarlaması
+        // Kalınlık için slider ayarlaması ve kalınlık işlemi
         JLabel label1;
         label1 = new JLabel("Kalınlık");
         label1.setBounds(50,50, 100,30);
-        JSlider slider = new JSlider(1, 100, 1);
+        JSlider slider = new JSlider(1, 100, 25);
         slider.addChangeListener(new SliderListener(canvas));
         top_bar.add(label1);
         top_bar.add(slider);
 
-        // Renkler
+        // Renkler için combobox
         String[] colors = {"Siyah", "Kırmızı", "Mavi", "Yeşil","Turuncu"};
         JComboBox<String> combo = new JComboBox<>(colors);
         combo.addActionListener(new Colors(canvas));
         top_bar.add(combo);
 
-        // Pencere göster
+        // Pencereyi göster
         frame.setVisible(true);
     }
 }
