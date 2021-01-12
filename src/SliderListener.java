@@ -2,6 +2,10 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
+/*
+    Created by hasanalisiseci
+ */
+
 public class SliderListener implements ChangeListener {
     //Kullanıcıdan gelen inputları yakalayabilecek ve çizim
     // olanağı sağlayacak canvasımızı oluşturuyoruz

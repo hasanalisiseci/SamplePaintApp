@@ -1,7 +1,10 @@
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-
 import javax.swing.*;
+
+/*
+    Created by hasanalisiseci
+ */
 
 public class Main {
 
@@ -42,7 +45,7 @@ public class Main {
         JLabel label1;
         label1 = new JLabel("Kalınlık");
         label1.setBounds(50,50, 100,30);
-        JSlider slider = new JSlider(1, 50, 1);
+        JSlider slider = new JSlider(1, 50, 15);
         slider.addChangeListener(new SliderListener(canvas));
         top_bar.add(label1);
         top_bar.add(slider);

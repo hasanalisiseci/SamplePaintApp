@@ -1,6 +1,10 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/*
+    Created by hasanalisiseci
+ */
+
 //Ekranı temizlemek istediğimizde buraya ulaşacağız.
 public class ClearListener implements ActionListener {
     //Kullanıcıdan gelen inputları yakalayabilecek ve çizim

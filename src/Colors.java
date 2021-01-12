@@ -3,6 +3,10 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JComboBox;
 
+/*
+    Created by hasanalisiseci
+ */
+
 public class Colors implements ActionListener {
     //Kullanıcıdan gelen inputları yakalayabilecek ve çizim
     // olanağı sağlayacak canvasımızı oluşturuyoruz

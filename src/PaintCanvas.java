@@ -7,6 +7,10 @@ import java.awt.Point;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
 
+/*
+    Created by hasanalisiseci
+ */
+
 public class PaintCanvas extends Canvas implements MouseListener, MouseMotionListener {
 
     // Çizim
@@ -23,7 +27,7 @@ public class PaintCanvas extends Canvas implements MouseListener, MouseMotionLis
     // Çizim modu: çiz (0), sil (1)
     private int type;
     // Hat kalınlığı
-    public int width = 1;
+    public int width = 15;
     public Color c = Color.black;
 
     public PaintCanvas(int w, int h) {
